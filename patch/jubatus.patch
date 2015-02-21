@@ -1,0 +1,32 @@
+diff --git a/jubatus/core/classifier/wscript b/jubatus/core/classifier/wscript
+index 1fd4b43..0781469 100644
+--- a/jubatus/core/classifier/wscript
++++ b/jubatus/core/classifier/wscript
+@@ -19,6 +19,14 @@ def build(bld):
+       'classifier_factory.hpp',
+       'classifier_type.hpp',
+       'classifier_config.hpp',
++      'classifier.hpp',
++      'arow.hpp',
++      'confidence_weighted.hpp',
++      'normal_herd.hpp',
++      'passive_aggressive.hpp',
++      'passive_aggressive_1.hpp',
++      'passive_aggressive_2.hpp',
++      'perceptron.hpp',
+       ]
+   use = ['jubatus_util']
+ 
+diff --git a/jubatus/core/storage/wscript b/jubatus/core/storage/wscript
+index 0efc69b..bfa6ecc 100644
+--- a/jubatus/core/storage/wscript
++++ b/jubatus/core/storage/wscript
+@@ -38,6 +38,8 @@ def build(bld):
+       'bit_vector.hpp',
+       'sparse_matrix_storage.hpp',
+       'recommender_storage_base.hpp',
++      'local_storage.hpp',
++      'local_storage_mixture.hpp',
+       ]
+   use = ['jubatus_util', 'MSGPACK']
+ 

@@ -1,0 +1,4 @@
+jubatus.o: jubatus.cpp jubatus.hpp classifier.hpp
+classifier.o: classifier.cpp classifier.hpp jubatus.hpp
+storage.o: storage.cpp storage.hpp jubatus.hpp
+feature_extraction.o: feature_extraction.cpp feature_extraction.hpp jubatus.hpp
