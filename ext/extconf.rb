@@ -1,8 +1,8 @@
 require 'mkmf'
 
-have_header('jubatus/config.hpp')
+have_header('jubatus/core_config.hpp')
 
-pkg_config('jubatus')
+pkg_config('jubatus_core')
 if (/darwin/ =~ RUBY_PLATFORM) != nil
   $CXXFLAGS = "-std=c++11"
 end

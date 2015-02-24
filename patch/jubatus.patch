@@ -1,12 +1,13 @@
 diff --git a/jubatus/core/classifier/wscript b/jubatus/core/classifier/wscript
-index 1fd4b43..0781469 100644
+index 1fd4b43..29f3f11 100644
 --- a/jubatus/core/classifier/wscript
 +++ b/jubatus/core/classifier/wscript
-@@ -19,6 +19,14 @@ def build(bld):
+@@ -19,6 +19,16 @@ def build(bld):
        'classifier_factory.hpp',
        'classifier_type.hpp',
        'classifier_config.hpp',
 +      'classifier.hpp',
++      'linear_classifier.hpp',
 +      'arow.hpp',
 +      'confidence_weighted.hpp',
 +      'normal_herd.hpp',
@@ -14,6 +15,7 @@ index 1fd4b43..0781469 100644
 +      'passive_aggressive_1.hpp',
 +      'passive_aggressive_2.hpp',
 +      'perceptron.hpp',
++      'nearest_neighbor_classifier.hpp',
        ]
    use = ['jubatus_util']
  

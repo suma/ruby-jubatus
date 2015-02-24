@@ -5,8 +5,8 @@ Ruby native extension to use Jubatus
 
 ## Requirements
 
-- Ruby 2.2.0 (tested!)
-- Jubatus core 0.6.0 (patched)
+- Ruby 2.1.0, 2.2.0 (tested!)
+- Jubatus core 0.1.0 (patched)
 
 
 ## Install
